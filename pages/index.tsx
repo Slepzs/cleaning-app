@@ -19,8 +19,14 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>pages/index.tsx </code>
         </p>
+
+        <div className={ styles.blackbox }>
+            My big black box
+            <br />
+            xD
+        </div>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -32,6 +38,7 @@ const Home: NextPage = () => {
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
+
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
